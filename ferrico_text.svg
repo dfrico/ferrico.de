@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="200px" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>ferrico</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="500" height="200"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="500" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ferrico">
+            <text font-family="RobotoMono-Bold, Roboto Mono" font-size="90" font-weight="bold" fill="#FAFAFA">
+                <tspan x="61" y="124">ferrico</tspan>
+            </text>
+            <use id="Rectangle-2" stroke="#FAFAFA" mask="url(#mask-2)" stroke-width="10" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
