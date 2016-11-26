@@ -7,15 +7,19 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300|Roboto+Mono:700" rel="stylesheet">
 		<link rel="stylesheet" href="http://ferrico.de/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./stylesheet.css">
-		
+		<style>
+
+		</style>
 	</head>
 	<body>
 		<div class="main">
 			<div class="triangle">
-				<a href="./about.html"><p id="About">About me</p></a>
+				<a href="./index.html"><p id="About">Home</p></a>
 				<a href="./under_const.html"><p id="Work">Work</p></a>
 			</div>
-			<svg class="logo-main" id="Logo" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<a href="./index.html"><div id="logo-mask">
+			</div></a>
+			<svg class="logo-small" id="Logo" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			    <title>ferrico</title>
 			    <defs>
 			        <rect id="path-1" x="0" y="0" width="500" height="200"></rect>
@@ -32,6 +36,15 @@
 			        </g>
 			    </g>
 			</svg>
+      
+      <div class="container">
+  			<div class="about-text">
+  				<p>I am a Junior Developer and Designer, currently studying Computer Science and Engineering at UC3M, Madrid.</p>
+  				<p>I am passionate about product design, UX and UI. I love coding in Python, Java, C/C++ or Javascript,  as well as  building powerful user interfaces for the web  with HTML and CSS.</p>
+  			</div>
+        <div class="pic"><img src="./img/image.png"></img></div>
+      </div>
+
 			<div id="footer">
 			<!-- &copy2016 Daniel Fernandez -->
 				<a href="mailto:deferrico@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
@@ -43,9 +56,13 @@
 		</div>
 
 		<script>
+		document.querySelector('#footer').style.width = "50vw";
+		document.querySelector('#footer').style.right = "50vw"
 		setTimeout(() => {document.querySelectorAll('#Logo')[0].style.opacity = 1;}, 200);
 		setTimeout(() => {document.querySelectorAll('.triangle')[0].style.opacity = 1;}, 300);
 		setTimeout(() => {document.querySelectorAll('#footer')[0].style.opacity = 1;}, 500);
+		setTimeout(() => {document.querySelectorAll('.pic')[0].style.opacity = 1;}, 800);
+		setTimeout(() => {document.querySelectorAll('.about-text')[0].style.opacity = 1;}, 800);
 		</script>
 	</body>
 </html>
