@@ -1,2 +1,4 @@
 react/node_modules
 *.bundle.js*
+build/app.bundle.js
+build/vendor.bundle.js

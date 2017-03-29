@@ -1,5 +1,8 @@
 import React from 'react';
 import _ from 'lodash';
+import Footer from './footer.jsx';
+
+import styles from '../styles/style.scss';
 
 export class Main extends React.Component {
 	constructor(props){
@@ -21,7 +24,12 @@ export class Main extends React.Component {
 	}
 	render() {
 
-		return (<div><h1>Hello!</h1></div>);
+		return (
+			<div style={{color: styles.brandSecondary}}>
+				<h1>Hello!</h1>
+				<Footer/>
+			</div>
+		);
 	}
 }
 export default Main;
