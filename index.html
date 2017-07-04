@@ -1,51 +1,73 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Ferrico</title>
-		<meta charset="ISO-8859-1">
-		<xml version="1.0" encoding="UTF-8">
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300|Roboto+Mono:700" rel="stylesheet">
-		<link rel="stylesheet" href="http://ferrico.de/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./stylesheet.css">
-		
-	</head>
-	<body>
-		<div class="main">
-			<div class="triangle">
-				<a href="./about.html"><p id="About">About me</p></a>
-				<a href="./under_const.html"><p id="Work">Work</p></a>
-			</div>
-			<svg class="logo-main" id="Logo" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-			    <title>ferrico</title>
-			    <defs>
-			        <rect id="path-1" x="0" y="0" width="500" height="200"></rect>
-			        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="500" height="200" fill="white">
-			            <use xlink:href="#path-1"></use>
-			        </mask>
-			    </defs>
-			    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-			        <g id="Logo-text">
-			            <text font-family="RobotoMono-Bold, Roboto Mono" font-size="90" font-weight="bold" fill="#FAFAFA">
-			                <tspan x="61" y="124">ferrico</tspan>
-			            </text>
-			            <use id="Logo-Rectangle" stroke="#FAFAFA" mask="url(#mask-2)" stroke-width="30" xlink:href="#path-1"></use>
-			        </g>
-			    </g>
-			</svg>
-			<div id="footer">
-			<!-- &copy2016 Daniel Fernandez -->
-				<a href="mailto:deferrico@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-				<a href="https://github.com/blayhem/"><i class="fa fa-github" aria-hidden="true"></i></a>
-				<a href="https://twitter.com/blayhem"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="https://www.linkedin.com/in/daniel-fernández-rico-71823482"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-				<a href="https://www.instagram.com/blayhem/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			</div>
-		</div>
+<html lang="en" />
 
-		<script>
-		setTimeout(() => {document.querySelectorAll('#Logo')[0].style.opacity = 1;}, 200);
-		setTimeout(() => {document.querySelectorAll('.triangle')[0].style.opacity = 1;}, 300);
-		setTimeout(() => {document.querySelectorAll('#footer')[0].style.opacity = 1;}, 500);
-		</script>
-	</body>
-</html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Daniel Fernandez</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/Roboto Mono 700.css">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <script src="./js/jquery.js"></script>
+</head>
+
+<body>
+	<div class="main">
+        <div class="center">
+            <div class="wrapper" id="fullpage">
+                <div class="section">
+                <div class="content" id="logo">
+                    <svg class="logo-main" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>ferrico</title>
+                        <defs>
+                            <rect id="path-1" x="0" y="0" width="500" height="200"></rect>
+                            <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="500" height="200" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                        </defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Logo-text">
+                                <text font-family="RobotoMono-Bold, Roboto Mono" font-size="90" font-weight="bold" fill="#FAFAFA">
+                                    <tspan x="61" y="124">ferrico</tspan>
+                                </text>
+                                <use id="Logo-Rectangle" stroke="#FAFAFA" mask="url(#mask-2)" stroke-width="30" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                </div>
+                <div class="section" id="about">
+                <div class="content">
+                    <p>Hello!</p>
+                    <p>My name is Daniel Fernandez Rico.</p>
+                    <p>I'm a front-end developer and designer,</p>
+                    <p>as well as a CS student.</p>
+                    <p>Welcome to my page!</p>
+                </div>
+                </div>
+            </div>
+        <div id="footer">
+            <a href="mailto:deferrico@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            <a href="https://github.com/blayhem/"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/blayhem"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-fernández-rico-71823482"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/blayhem/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <script src="./js/jquery.fullPage.min.js"></script>
+	<script src="./js/object.create-shim.js"></script>
+    <script src="./js/three.js"></script>
+    <script src="./js/background-jail.js"></script>
+	<script>
+		var bg = new graph;
+		bg.play();
+		$('body').css('bg', '#222');
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+	</script>
+</body>
+    

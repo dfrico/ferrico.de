@@ -2,3 +2,4 @@ react/node_modules
 *.bundle.js*
 app.bundle.*
 vendor.bundle.*
+.DS_Store
