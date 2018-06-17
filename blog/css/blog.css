@@ -1,0 +1,12 @@
+nav.main-nav a.cta {
+    display: none;
+}
+
+body {
+    background-color: #222;
+}
+
+#post-list a {
+    color: #999;
+}
+
