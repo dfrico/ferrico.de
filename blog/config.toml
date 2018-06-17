@@ -10,16 +10,16 @@ googleAnalytics = ""
 # disqusShortname = "spf13"
 
 [params]
-	name = "Daniel"
+	name = "/blog"
 	description = "ideas, project docs, and random thoughts"
-	bio = "tiny blog for ideas, project docs, and random thoughts"
+	bio = "ideas, project docs, and random thoughts"
 	# Enter optionally your twitter account
 	twitter = "blayhem"
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
 	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
-	customCSS = [css/blog.css]
+	customCSS = ["css/custom.css"]
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
